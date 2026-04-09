@@ -1,13 +1,13 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "superpmm"
 version = "0.1.0"
 description = "SuperPMM — Build your Go-To-Market in 60 minutes, not 6 weeks."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
     {name = "Mothi Venkatesh", email = "mothivenkatesh@gmail.com"}

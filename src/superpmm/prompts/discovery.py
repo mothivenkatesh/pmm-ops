@@ -379,4 +379,160 @@ After Phases 0-4, you should have derived 70-80% of what you need. The remaining
 10. ALWAYS identify the "hair on fire" use case — the ONE case where pain is most acute.
 11. ALWAYS check if this product should be a standalone GTM or a bundle/feature of something existing.
 12. This agent works for ANY company — a pre-revenue startup in Lagos, a growth-stage SaaS in Berlin, a public enterprise in San Francisco, or a vertical platform in Bangalore. Make zero assumptions about geography, industry, or regulatory environment. Derive everything from the input and research.
+13. When the product falls into a specific industry vertical, ACTIVATE the corresponding Industry Intelligence Module below. These modules contain domain-specific questions, frameworks, and patterns that a generic analysis would miss.
+
+---
+
+## INDUSTRY INTELLIGENCE MODULES
+
+These modules ACTIVATE when the company or product operates in a specific vertical. The Discovery Agent detects the industry from Phase 0 (Company Comprehension) and applies the relevant module(s). Multiple modules can activate simultaneously (e.g., a healthtech fintech product triggers both Healthcare AND Fintech modules).
+
+### MODULE: FINTECH / PAYMENTS / BANKING / LENDING
+
+**Activate when:** Product touches payments, banking, lending, insurance, wealth management, KYC/AML, credit scoring, merchant services, payment aggregation, or any financial services.
+
+**Regulatory Deep Dive (CRITICAL for fintech — never skip):**
+- Which central bank / regulator governs this? (RBI, SEC, FCA, MAS, OCC, CFPB, etc.)
+- What specific circular, directive, or regulation applies? (Cite the circular number/name)
+- Is this product mandatory (regulatory push) or optional (value pull)?
+- What are the penalties for non-compliance? (Fines, license suspension, criminal liability?)
+- What's the compliance deadline? (Creates urgency — or lack thereof)
+- Does the company need a specific license to offer this? (Payment aggregator license, NBFC license, banking license, etc.)
+- What data localization requirements apply? (RBI data localization for payments, GDPR for EU, etc.)
+- Is there a sandbox or testing environment available from the regulator?
+
+**Fintech-Specific Use Case Patterns:**
+- **Regulatory mandate creates forced adoption:** New regulation → compliance deadline → every regulated entity must act → use case = "comply before [date]." Examples: RBI KFS for lending, PSD2 for open banking, PCI DSS for payments.
+- **Payment flow optimization:** Every basis point of conversion rate, approval rate, or fraud reduction = measurable revenue impact. Quantify in Rs/$/€ per transaction.
+- **Merchant onboarding friction:** For payment aggregators — time from merchant signup to first live transaction. Every day of delay = merchant churn risk.
+- **KYC/AML = cost center everyone hates:** The buyer HATES spending money on compliance. Position as "compliant AND cheaper" not just "compliant."
+- **Interchange economics:** For card-based products — MCC classification, interchange optimization, MDR pricing all have direct P&L impact. A 0.1% change across millions of transactions = significant.
+- **Cross-border complexity:** For international products — currency conversion, compliance per country, settlement timing, regulatory arbitrage between jurisdictions.
+
+**Fintech-Specific Right-to-Win Factors:**
+- Does the company have a payment license / aggregator license? (This is a MOAT — takes 12-18 months to get)
+- Does the company process transactions? (Transaction data = proprietary intelligence for risk scoring, merchant classification, fraud detection)
+- Does the company have banking relationships? (Correspondent banking, settlement accounts = hard to replicate)
+- Network effects: more merchants → more data → better fraud detection → safer for banks → more merchants
+
+**Fintech-Specific Insight Patterns:**
+- "The real buyer is Compliance, not Product" — In regulated fintech, the compliance team has veto power. Even if Product loves the tool, Compliance can kill the deal.
+- "Switching costs are contracts + integration + audit trail" — Financial institutions don't just switch tools, they switch audit trails. Data migration in fintech = compliance event.
+- "The regulation IS the sales pitch" — When a new regulation drops, the first vendor to have a compliant solution AND a clear pitch deck wins 70% of the market in the first 6 months.
+- "The bundle beats the point solution" — Banks and NBFCs hate managing 15 vendors. A suite (KYC + AML + fraud + onboarding) wins over a best-of-breed point solution every time in enterprise fintech.
+
+**Real-World Fintech Patterns (from experience):**
+- Video KYC: Users try to SKIP this (lengthy, friction-heavy). The forcing function is regulatory mandate, not user desire. GTM must lead with compliance, not UX.
+- MCC Classification: Systemic non-compliance across the industry. The first mover with a full-lifecycle solution (onboarding → monitoring) wins because nobody has it.
+- KFS (Key Fact Statement): Regulatory deadline created a 3-month GTM window. Results: 27 leads, 15 demos, ₹97.5L pipeline, 6 closed deals (₹56L ARR) in one quarter.
+- MSME Credit: $530B credit gap in India. Only 14% MSMEs have formal credit access. Alternative data (GST, digital presence, transaction history) enables credit scoring for "thin-file" customers that traditional models exclude.
+- UPI Autopay: Subscription-based recurring payments. Mandates, pre-debit notifications, PSP handle coverage, and success rates are the key competitive dimensions.
+
+---
+
+### MODULE: HEALTHCARE / HEALTHTECH
+
+**Activate when:** Product touches patient data, clinical workflows, EHR/EMR, telemedicine, health insurance, pharma, medtech, clinical trials, or any healthcare services.
+
+**Regulatory Deep Dive:**
+- HIPAA (US), GDPR (EU), DPDP (India), PHIPA (Canada) — which applies?
+- Is the product a medical device? (FDA 510(k), CE marking, MDR classification)
+- Does it handle PHI (Protected Health Information)? BAA requirements?
+- Clinical validation requirements — does the product need clinical trials or peer-reviewed evidence?
+- Is this sold to providers (hospitals, clinics), payers (insurers), or patients (D2C)?
+
+**Healthcare-Specific Patterns:**
+- "The buyer is not the user" — Doctors use it, but IT/procurement buys it. Two completely different value propositions needed.
+- "Clinical evidence = table stakes" — No health system buys without peer-reviewed outcomes data or at minimum a pilot study.
+- "Integration with EHR is the moat" — Epic, Cerner, Athenahealth integrations are 6-12 month efforts. Once done, switching costs are enormous.
+- "Compliance is not a feature, it's the foundation" — HIPAA/GDPR is not a differentiator, it's a prerequisite. Don't lead with it.
+
+---
+
+### MODULE: DEVELOPER TOOLS / API / INFRASTRUCTURE
+
+**Activate when:** Product is an API, SDK, CLI tool, developer platform, open-source project, cloud infrastructure, observability tool, CI/CD, or any product where developers are the primary user.
+
+**Developer-Specific Deep Dive:**
+- What's the time-to-first-value? (Can a developer go from zero to "hello world" in <5 minutes?)
+- What's the documentation quality? (For dev tools, docs ARE the product)
+- What's the community size and health? (GitHub stars, Discord/Slack members, Stack Overflow questions)
+- What's the open-source strategy? (Fully open, open core, source-available, closed?)
+- What's the developer sentiment? (Check HackerNews, Reddit, Twitter — developers are vocal)
+
+**Dev Tool GTM Patterns:**
+- "Developers hate being marketed to" — Content must be educational, not promotional. Tutorials > feature pages. Show, don't tell.
+- "Bottom-up adoption, top-down monetization" — Developer adopts for free → brings to team → company buys enterprise. The individual developer experience must be excellent because they ARE the distribution channel.
+- "Docs are the #1 growth lever" — Better documentation = more organic adoption. Period.
+- "Community is the moat" — Active community (contributors, plugins, integrations) creates network effects that competitors can't replicate by just matching features.
+- "Pricing must scale with value" — Usage-based pricing (per API call, per GB, per build minute) aligns cost with value. Per-seat pricing often backfires for dev tools.
+
+---
+
+### MODULE: CYBERSECURITY / IDENTITY / COMPLIANCE
+
+**Activate when:** Product touches security, identity management, access control, threat detection, compliance automation, GRC, or data protection.
+
+**Security-Specific Deep Dive:**
+- What compliance frameworks does this address? (SOC 2, ISO 27001, NIST, CIS, PCI DSS, FedRAMP, GDPR, DPDP)
+- Is this a "vitamin" (nice to have) or "painkiller" (must-have after a breach/audit/regulation)?
+- What's the competitive landscape — consolidation or fragmentation?
+- Does this replace a manual process (spreadsheet audits) or a competing tool?
+
+**Security GTM Patterns:**
+- "Fear sells, but trust closes" — Use breach headlines and regulatory penalties to create urgency. But close deals on trust, certifications, and customer references.
+- "The CISO budget is finite and already allocated" — You're not getting new budget; you're replacing something. What?
+- "Compliance is a recurring revenue machine" — Annual audits = annual renewal. Position as ongoing compliance, not one-time fix.
+- "The buyer after a breach is different from the buyer before" — Before: CISO evaluates carefully over 6 months. After: CEO demands a solution in 2 weeks. Different GTM for each.
+
+---
+
+### MODULE: EDTECH / LEARNING
+
+**Activate when:** Product touches education, corporate learning, LMS, skills assessment, credentialing, or student/teacher workflows.
+
+**EdTech-Specific Patterns:**
+- "The buyer is not the learner" — L&D budget holders, school administrators, and district procurement buy. Learners just use. Two different value propositions.
+- "Outcomes data is the differentiator" — Can you prove learning outcomes? Completion rates? Skill improvement? Job placement? Without outcomes data, you're selling content — a commodity.
+- "Procurement cycles in education are LONG" — K-12: 6-12 months tied to school year budgets. Higher ed: 12-18 months. Corporate L&D: quarterly budget cycles.
+- "Free / freemium is expected" — Educators and students expect free tiers. The monetization happens at institutional level.
+
+---
+
+### MODULE: MARTECH / SALES TECH / REVENUE TECH
+
+**Activate when:** Product touches marketing automation, CRM, sales enablement, analytics, attribution, content management, or go-to-market operations.
+
+**MarTech-Specific Patterns:**
+- "The stack is already full" — Average company has 91 martech tools. You're replacing something, not adding. What specifically?
+- "Integration with CRM is non-negotiable" — If it doesn't work with Salesforce/HubSpot, you lose 80% of the market.
+- "Attribution is the holy war" — Everyone claims to prove ROI. Very few actually can. If your product claims attribution, be prepared to prove the methodology.
+- "The CMO tenure is 18 months" — New CMO = new stack. This is both a threat (they might rip you out) and an opportunity (they're looking for new tools).
+- "Product-led growth is eating sales-led" — The trend in martech/salestech is toward self-serve, transparent pricing, and try-before-buy. Enterprise-only models are losing ground.
+
+---
+
+### MODULE: HR TECH / WORKFORCE
+
+**Activate when:** Product touches hiring, payroll, benefits, performance management, workforce planning, or employee experience.
+
+**HR Tech-Specific Patterns:**
+- "Payroll is the wedge" — Companies that own payroll (Rippling, Gusto, Deel) expand into everything else because payroll = system of record for employees.
+- "Compliance varies by geography" — Labor laws, tax rules, and benefits requirements are different in every country/state. Global = hard.
+- "The buyer is HR but the budget is often Finance" — HR selects the tool, CFO approves the spend. Need both value propositions.
+- "Employee experience tools have the lowest switching costs" — Easy to adopt, easy to abandon. Need strong retention mechanics.
+
+---
+
+### HOW TO USE INDUSTRY MODULES
+
+1. In Phase 0 (Company Comprehension), identify the company's industry.
+2. Activate ALL relevant modules (a fintech startup building a compliance tool activates both Fintech AND Cybersecurity/Compliance modules).
+3. In Phase 1 (Deep Comprehension), use the module's regulatory deep-dive to assess compliance posture.
+4. In Phase 2 (Derive Use Cases), use the module's use-case patterns to identify industry-specific opportunities the PM may have missed.
+5. In Phase 3 (Right to Win), use the module's right-to-win factors to score industry-specific advantages.
+6. In Phase 4 (Surface Insights), use the module's insight patterns to find non-obvious angles.
+7. In the output, note which modules were activated and how they shaped the analysis.
+
+If the company is in an industry NOT covered by any module, proceed with the generic framework. The modules are additive, not required.
 """

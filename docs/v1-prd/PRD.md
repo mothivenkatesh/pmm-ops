@@ -999,22 +999,22 @@ V5 (Month 12+): Full "PMMStudio" — the AI Studio for PMMs
 
 ## Real-World Validation: How a PMM Actually Does This Today
 
-### Case Study 1: Shitij's Personal Positioning Framework
+### Case Study 1: Mothi's Personal Positioning Framework
 
-Shitij Bhardwaj (PMM, 4+ YOE) built his own positioning and messaging strategy using FletchPMM-style anchors — applied to HIMSELF as a product. This perfectly mirrors what PMMStudio V1 automates:
+Mothi Venkatesh (PMM, 4+ YOE) built his own positioning and messaging strategy using FletchPMM-style anchors — applied to HIMSELF as a product. This perfectly mirrors what PMMStudio V1 automates:
 
-**What Shitij did manually → What PMMStudio V1 automates:**
+**What Mothi did manually → What PMMStudio V1 automates:**
 
-| Shitij's Manual Step | PMMStudio V1 Equivalent | Time Saved |
+| Mothi's Manual Step | PMMStudio V1 Equivalent | Time Saved |
 |---|---|---|
 | **Step 1: Choose primary anchors** (Category: "PMM with 4+ YOE", Use Case: "aligning decisions with market insights to position product uniquely", Alternative: "AI PMM") | **Step 4a: Positioning Anchors** — system presents market elements x product elements, recommends primary + secondary anchors | Manual: 2-3 hours of framework study + application. PMMStudio: 3 minutes guided selection |
 | **Step 2: Choose secondary anchors** (Company: "B2B SaaS", Persona: "Senior PMM / Director") | **Step 1b: ICP Builder** — company type, buyer persona, end user defined with examples | Already part of the flow |
 | **Step 3: Link problem to anchors** — defined the problem hiring managers face, wrote differentiator summary | **Step 3: PRFAQ** — problem paragraph auto-generated from ICP research + competitive gaps, differentiator from CI analysis | Manual: 3-4 hours of writing + reflection. PMMStudio: 8 minutes of guided editing |
 | **Step 4: Build 3 differentiator pillars** with sub-problems, capabilities, and benefits for each | **Step 4b: Message House Builder** — 3 value pillars auto-generated from PRFAQ + CI + ICP, each with proof points, customer pain, and capabilities | Manual: 4-6 hours. PMMStudio: 7 minutes of review + editing |
 
-**Shitij's framework structure maps 1:1 to PMMStudio's flow:**
+**Mothi's framework structure maps 1:1 to PMMStudio's flow:**
 ```
-Shitij's Framework:           PMMStudio V1:
+Mothi's Framework:           PMMStudio V1:
 Primary Anchors         →     Step 4a: Positioning Anchors
 Secondary Anchors       →     Step 1b: ICP (company + persona)
 Problem → Anchors       →     Step 3: PRFAQ (problem paragraph)
@@ -1023,33 +1023,33 @@ Capabilities + Benefits  →    Step 4b: Proof points per pillar
 Elevator Pitch           →    Step 4c: Messaging Outputs
 ```
 
-**Key insight from Shitij's work:** The best positioning starts with ANCHORS (what to lead with), then links PROBLEMS to those anchors, then builds PILLARS with capabilities + benefits. This is exactly FletchPMM's methodology — and exactly what PMMStudio V1 guides users through.
+**Key insight from Mothi's work:** The best positioning starts with ANCHORS (what to lead with), then links PROBLEMS to those anchors, then builds PILLARS with capabilities + benefits. This is exactly FletchPMM's methodology — and exactly what PMMStudio V1 guides users through.
 
 ---
 
-### Case Study 2: Shitij's KFS GTM (Real Product Launch)
+### Case Study 2: Mothi's KFS GTM (Real Product Launch)
 
-Shitij executed a complete GTM motion for a Contract Lifecycle Management (CLM) product launching under an RBI regulatory mandate. This is the EXACT workflow PMMStudio V1 replaces:
+Mothi executed a complete GTM motion for a Contract Lifecycle Management (CLM) product launching under an RBI regulatory mandate. This is the EXACT workflow PMMStudio V1 replaces:
 
-**What Shitij did over 3 months → What PMMStudio V1 does in 60 minutes:**
+**What Mothi did over 3 months → What PMMStudio V1 does in 60 minutes:**
 
-| Phase | What Shitij Did Manually | PMMStudio V1 Equivalent |
+| Phase | What Mothi Did Manually | PMMStudio V1 Equivalent |
 |---|---|---|
 | **ICP Discovery** | 1:1 problem discovery calls with existing + new customers. Identified 3 ICPs: Head of Digital Innovation, Head of Operations, Head of Technology | **Step 1b: ICP Builder** — guided ICP definition with buyer/champion/user roles. System would auto-suggest ICPs from CRM data if connected. |
 | **Buyer Persona Matrix** | Built a matrix per persona: Top Challenge, Value Prop, Unique Benefit, Positioning, Buying Motivation — all differentiated per persona | **Step 1b → Step 4c:** Persona-specific messaging auto-generated. Each persona gets tailored value prop, positioning line, and buying motivation — derived from ICP research + competitive analysis. |
 | **Cross-Functional Strategy** | Defined roles for PM, Account Management, PMM, CS, RevOps — who does what | **Step 5b: Launch Plan** — auto-generates DIN stakeholder map + RACI with role assignments |
 | **Competitive Analysis** | Compared product capability against regulatory requirements and alternatives | **Step 2: CI Module** — auto-analyzes competitors, identifies differentiation angles, maps "current way" (manual compliance processes) |
-| **Marketing Execution Plan** | 3-month Gantt chart: regulation deck, pitch deck, demo video, battlecards, training, email campaigns, WhatsApp campaigns, webinar, customer story | **Step 5b: Launch Plan** — auto-generates tiered asset checklist with timeline. For a Tier 1 regulatory launch like this, system would recommend all assets Shitij manually planned. |
+| **Marketing Execution Plan** | 3-month Gantt chart: regulation deck, pitch deck, demo video, battlecards, training, email campaigns, WhatsApp campaigns, webinar, customer story | **Step 5b: Launch Plan** — auto-generates tiered asset checklist with timeline. For a Tier 1 regulatory launch like this, system would recommend all assets Mothi manually planned. |
 | **Pitch Deck** | Built a 16-page narrative deck: Regulation context → Why comply → How Contract360 solves it → Language support → Demo | **Step 3: PRFAQ** generates the narrative structure (problem → solution → proof → CTA). Step 4 generates the messaging that goes INTO the deck. Deck creation itself is V3 (Content Generator). |
 | **Results Tracking** | Tracked leads, demos, pipeline, closed deals, win/loss analysis | **Step 5c: Metrics** — auto-defines leading indicators (demos, engagement) + lagging indicators (pipeline, closed deals) + recommends win/loss analysis post-launch |
 
-**What's striking:** Shitij's KFS launch followed our exact 5-step sequence — ICP research → competitive analysis → narrative/PRFAQ → positioning/messaging per persona → GTM execution plan. He just did it manually across Notion, Google Docs, spreadsheets, and pitch decks over 3 months. PMMStudio compresses this into a single guided session.
+**What's striking:** Mothi's KFS launch followed our exact 5-step sequence — ICP research → competitive analysis → narrative/PRFAQ → positioning/messaging per persona → GTM execution plan. He just did it manually across Notion, Google Docs, spreadsheets, and pitch decks over 3 months. PMMStudio compresses this into a single guided session.
 
 ---
 
-### Case Study 3: Shitij's Market Insight for MSME Credit Scoring
+### Case Study 3: Mothi's Market Insight for MSME Credit Scoring
 
-Shitij led strategic product validation for an alternative credit scoring product — using AI-powered market research to identify which data sources could assess thin-file MSME borrowers.
+Mothi led strategic product validation for an alternative credit scoring product — using AI-powered market research to identify which data sources could assess thin-file MSME borrowers.
 
 **What he did:** Used structured AI prompts to research alternative data factors (digital presence, transactional activity, regulatory compliance, fraud indicators) → categorized into a framework → validated with PM + credit analysts → built positioning → created narrative pitch deck → secured sandbox approval.
 
@@ -1063,39 +1063,39 @@ Shitij led strategic product validation for an alternative credit scoring produc
 
 ---
 
-### Case Study 4: Shitij's MCC Classification Positioning at Signzy (Research-Led Positioning)
+### Case Study 4: Mothi's MCC Classification Positioning at Signzy (Research-Led Positioning)
 
 This is the most instructive case study — it shows how a PMM builds positioning for a complex B2B product by starting with deep research and competitive intelligence BEFORE writing a single line of messaging. Exactly the workflow PMMStudio V1 enforces.
 
 **The Context:**
 RBI tightened scrutiny on merchant aggregators and PSPs over MCC (Merchant Category Code) misuse — penalties, advisories, license suspensions. Signzy had 5 APIs (GST to MCC, WebCrawler, ShopLens AI, MSME Alt Data, Transaction Monitoring) that needed a clear positioning story for lenders.
 
-**What Shitij did → What PMMStudio V1 automates:**
+**What Mothi did → What PMMStudio V1 automates:**
 
 **Step 1: Research & Insights (PMMStudio Steps 1 + 2)**
 
-Shitij organized his research into three branches — this maps perfectly to our Research + CI modules:
+Mothi organized his research into three branches — this maps perfectly to our Research + CI modules:
 
-| Shitij's Research Branch | What He Found | PMMStudio Module |
+| Mothi's Research Branch | What He Found | PMMStudio Module |
 |---|---|---|
 | **Regulatory Signals** | RBI advisories put MCC governance under spotlight. Industry commentary (Ram Rastogi) highlighted misclassification as systemic non-compliance. | **Step 1: Research** — auto-detects regulatory triggers, industry signals, market shifts from news + analyst sources |
 | **Competitive Landscape** | Existing solutions were fragmented — limited to GST checks or manual review teams. No competitor offered full lifecycle automated MCC governance. | **Step 2: CI** — auto-maps competitors, identifies "current way" (manual checks + fragmented tools), detects whitespace |
 | **Customer Discovery** | Compliance heads cited over-reliance on merchant self-declaration as top risk. Banks flagged limited visibility into post-onboarding merchant behavior. | **Step 1: Research** — synthesizes customer pain points. Plus a real Head of Compliance quote about MCC codes being wrong after regulation change. |
 
-**Key insight from this case:** Shitij's research revealed that the product positioning needed to bifurcate APIs into "pre-onboarding" vs "post-onboarding" use cases — and further into "GST" vs "non-GST" merchants. This insight came from a PM-PMM conversation where Shitij brought compliance research and the PM brought the technical API structure. **PMMStudio's Research module should surface exactly these kinds of structural insights — not just pain points, but how to ORGANIZE the product's positioning architecture.**
+**Key insight from this case:** Mothi's research revealed that the product positioning needed to bifurcate APIs into "pre-onboarding" vs "post-onboarding" use cases — and further into "GST" vs "non-GST" merchants. This insight came from a PM-PMM conversation where Mothi brought compliance research and the PM brought the technical API structure. **PMMStudio's Research module should surface exactly these kinds of structural insights — not just pain points, but how to ORGANIZE the product's positioning architecture.**
 
 **Step 2: Positioning Framework (PMMStudio Step 4)**
 
-From the research, Shitij built:
+From the research, Mothi built:
 
-| Shitij's Positioning Element | What He Created | PMMStudio Equivalent |
+| Mothi's Positioning Element | What He Created | PMMStudio Equivalent |
 |---|---|---|
 | **Positioning Statement** | "For merchant aggregators and PSPs facing regulatory risk, Signzy's MCC Classification & Onboarding Suite delivers compliant onboarding and continuous merchant monitoring. Unlike manual checks or fragmented tools, it provides end-to-end, AI-powered MCC governance." | **Step 4a: Positioning Anchors** — Persona anchor (aggregators/PSPs) + Problem anchor (regulatory risk) + Category anchor (MCC Classification Suite) + Differentiation (end-to-end vs fragmented) |
 | **Positioning Line** | "Automate MCC mapping and monitoring across the merchant lifecycle with audit-ready assurance." | **Step 4c: Elevator Pitches** — 10/30/100 word variants auto-generated from Message House |
 
 **Step 3: Persona-Specific Messaging (PMMStudio Step 4b-4c)**
 
-This is where the case study is most valuable. Shitij built a 4-persona messaging matrix:
+This is where the case study is most valuable. Mothi built a 4-persona messaging matrix:
 
 | Persona | Pain Point | Message | Proof Point |
 |---|---|---|---|
@@ -1104,7 +1104,7 @@ This is where the case study is most valuable. Shitij built a 4-persona messagin
 | Business/Onboarding Teams | Slow onboarding, manual checks | "Frictionless onboarding at scale — without cutting compliance corners." | 2x faster onboarding, GST to MCC instant mapping |
 | CXOs | Profitability erosion from MDR mispricing | "Protect your margins by stopping MCC arbitrage." | Monitoring tools that prevent MDR leakage |
 
-**This is exactly PMMStudio Step 4c's "Persona-Specific Messaging" output** — but Shitij built it manually over days. PMMStudio auto-generates this matrix from the ICP personas (Step 1) + competitive differentiation (Step 2) + positioning pillars (Step 4b).
+**This is exactly PMMStudio Step 4c's "Persona-Specific Messaging" output** — but Mothi built it manually over days. PMMStudio auto-generates this matrix from the ICP personas (Step 1) + competitive differentiation (Step 2) + positioning pillars (Step 4b).
 
 **Step 4: Results & Impact (PMMStudio Step 5c: Metrics)**
 
@@ -1120,11 +1120,11 @@ After rolling out the positioning:
 
 **Why this case study matters most for PMMStudio V1:**
 
-This is the hardest PMM problem — a complex B2B product with multiple APIs, multiple personas, regulatory urgency, and no existing market category ("MCC governance suite" didn't exist as a term before Shitij positioned it).
+This is the hardest PMM problem — a complex B2B product with multiple APIs, multiple personas, regulatory urgency, and no existing market category ("MCC governance suite" didn't exist as a term before Mothi positioned it).
 
 If PMMStudio V1 can guide a PMM through THIS level of complexity and produce output THIS structured, it proves the product works for any B2B positioning challenge. The simpler cases (basic SaaS feature launch, startup positioning) become easy.
 
-The workflow Shitij followed:
+The workflow Mothi followed:
 ```
 Research (regulatory + competitive + customer)
     ↓
@@ -1155,13 +1155,13 @@ This IS PMMStudio V1's flow: Research → CI → PRFAQ → Positioning → GTM P
 
 5. **Complexity is handled.** Case Study 4 (MCC at Signzy) proves the workflow handles complex B2B products with multiple APIs, multiple personas, regulatory drivers, and category creation — not just simple SaaS launches. If it works for this, it works for anything.
 
-6. **Research + CI MUST come before positioning.** Every case study confirms: the PMM who skips research and CI produces generic positioning. Shitij's best work (MCC, KFS, MSME Credit) all started with deep market + competitive + customer research. PMMStudio V1's 5-step sequence enforces this — you literally cannot get to Step 4 (Positioning) without completing Steps 1-2 (Research + CI).
+6. **Research + CI MUST come before positioning.** Every case study confirms: the PMM who skips research and CI produces generic positioning. Mothi's best work (MCC, KFS, MSME Credit) all started with deep market + competitive + customer research. PMMStudio V1's 5-step sequence enforces this — you literally cannot get to Step 4 (Positioning) without completing Steps 1-2 (Research + CI).
 
 ---
 
 ## Ideal User Profiles
 
-### Profile 1: "Shitij" — The Mid-Level PMM at a Growth-Stage B2B Company
+### Profile 1: "Mothi" — The Mid-Level PMM at a Growth-Stage B2B Company
 
 | Attribute | Detail |
 |---|---|
@@ -1209,28 +1209,28 @@ This IS PMMStudio V1's flow: Research → CI → PRFAQ → Positioning → GTM P
 | **Willingness to pay** | $39/user/mo for team tier (V2). This is a team productivity tool, not a personal one. |
 | **How they find us** | Their PMMs discover it individually → Marcus sees the output → buys it for the team. Bottom-up adoption. |
 
-### Why "Shitij" Is the V1 Target
+### Why "Mothi" Is the V1 Target
 
 Profile 1 is our beachhead. Here's why:
 
-| Factor | Why Shitij, Not Sarah or Marcus |
+| Factor | Why Mothi, Not Sarah or Marcus |
 |---|---|
 | **They know what good looks like** | Can evaluate PMMStudio's output quality. Sarah can't (yet). Marcus delegates. |
 | **They'll use it immediately** | They have a positioning project THIS WEEK. Sarah may not. Marcus needs team features (V2). |
 | **They'll pay quickly** | $39/mo is obvious ROI for someone doing this work weekly. Sarah needs to convince the CEO first. |
 | **They'll tell their PMM friends** | Mid-level PMMs are the most active in communities (PMA, Sharebird, LinkedIn). They share tools that work. |
-| **They'll upgrade to Team** | When Marcus sees the output, Shitij becomes the internal champion for a team purchase. |
+| **They'll upgrade to Team** | When Marcus sees the output, Mothi becomes the internal champion for a team purchase. |
 | **Their pain is quantifiable** | "I spent 3 weeks on the MCC positioning project. PMMStudio would have done Step 1-2 in 20 minutes." |
 
 ---
 
-## V1 Walkthrough: What PMMStudio Would Have Done for Shitij's MCC Project
+## V1 Walkthrough: What PMMStudio Would Have Done for Mothi's MCC Project
 
-This is the most concrete way to show what V1 actually produces. Let's walk through exactly what would happen if Shitij used PMMStudio for the Signzy MCC Classification positioning.
+This is the most concrete way to show what V1 actually produces. Let's walk through exactly what would happen if Mothi used PMMStudio for the Signzy MCC Classification positioning.
 
 ### Step 1: Research (10 min)
 
-**Shitij pastes:** `signzy.com`
+**Mothi pastes:** `signzy.com`
 
 **Auto-extract (30 seconds):**
 - Product: "Signzy — Digital onboarding and verification platform for regulated entities"
@@ -1376,7 +1376,7 @@ FAQ auto-generated:
   Proof: Monitoring tools that prevent MDR leakage
 ```
 
-**This output matches Shitij's actual messaging matrix almost exactly** — because it's derived from the same research and competitive analysis using the same methodology.
+**This output matches Mothi's actual messaging matrix almost exactly** — because it's derived from the same research and competitive analysis using the same methodology.
 
 ### Step 5: GTM Plan (10 min)
 
@@ -1398,7 +1398,7 @@ FAQ auto-generated:
   T+4: Win/loss analysis
 
   STAKEHOLDERS (DIN):
-  Decide: PMM (Shitij)
+  Decide: PMM (Mothi)
   Input: PM, Sales lead, Compliance SME
   Notify: CS, Support, RevOps
 
@@ -1423,7 +1423,7 @@ FAQ auto-generated:
 
 ### The Comparison
 
-| What Shitij Did Manually | Time | What PMMStudio V1 Produces | Time |
+| What Mothi Did Manually | Time | What PMMStudio V1 Produces | Time |
 |---|---|---|---|
 | Research: regulatory signals, competitive landscape, customer discovery (1:1 calls with compliance heads) | 2-3 weeks | Step 1 + 2: Auto-research from web + G2 + regulatory sources, structured into 3 branches | 20 min |
 | PRFAQ / narrative (problem framing, solution description) | 3-5 days | Step 3: Auto-generated from research, editable | 15 min |
@@ -1432,6 +1432,6 @@ FAQ auto-generated:
 | GTM execution plan (3-month timeline, asset checklist) | 1 week | Step 5: Auto-tiered plan with timeline + assets + metrics | 10 min |
 | **TOTAL** | **4-6 weeks** | **TOTAL** | **~55 min** |
 
-**The quality gap:** PMMStudio's output is a strong FIRST DRAFT — probably 70-80% of what Shitij produced manually. The remaining 20-30% (the Pine Labs compliance head quote, the PM-PMM conversation about pre/post onboarding bifurcation, the nuanced industry body relationship for the webinar) comes from the PMM's domain expertise and relationships. PMMStudio handles the mechanical research and synthesis; the PMM adds the strategic judgment and human context.
+**The quality gap:** PMMStudio's output is a strong FIRST DRAFT — probably 70-80% of what Mothi produced manually. The remaining 20-30% (the Pine Labs compliance head quote, the PM-PMM conversation about pre/post onboarding bifurcation, the nuanced industry body relationship for the webinar) comes from the PMM's domain expertise and relationships. PMMStudio handles the mechanical research and synthesis; the PMM adds the strategic judgment and human context.
 
 **That's the value prop:** Not "PMMStudio replaces PMMs." It's "PMMStudio gives PMMs back 80% of their time so they can spend it on the 20% that only humans can do — customer relationships, strategic judgment, cross-functional influence."

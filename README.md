@@ -114,7 +114,7 @@ super-pmm/
 |   |   +-- ...and more
 |   |
 |   +-- case-studies/                       # Real-world PMM case studies that validate the workflow
-|       +-- PMM Positioning - Shitij.xlsx
+|       +-- PMM Positioning - Mothi.xlsx
 |       +-- KFS Pitch Deck.pdf
 |
 +-- README.md

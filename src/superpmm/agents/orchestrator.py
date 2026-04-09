@@ -12,12 +12,20 @@ from ..prompts import (
     POSITIONING_PROMPT,
     GTM_PLAN_PROMPT,
 )
+from ..prompts.discovery import DISCOVERY_PROMPT
 from ..tools.web import web_fetch
 from ..tools.file_reader import read_uploaded_file
 from .runner import run_agent
 
 
 STEPS = [
+    {
+        "number": 0,
+        "name": "Discovery",
+        "prompt": DISCOVERY_PROMPT,
+        "use_tools": True,
+        "description": "Understanding the product deeply before building any strategy — asking the right questions first",
+    },
     {
         "number": 1,
         "name": "Research & ICP",

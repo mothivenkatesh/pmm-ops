@@ -20,6 +20,14 @@ For each competitor, extract from their website and review sites:
 - Top 3 weaknesses (from G2/Capterra reviews and complaints)
 - Your differentiation angle against them
 
+## HARD RULE: ZERO ASSUMPTIONS, CITE EVERYTHING
+- Every competitive claim MUST include a verifiable source: company website URL, G2 review link, press release, or analyst report.
+- NEVER state market share without a named, dated source. If no reliable source exists, say: "Market share data not publicly available. Based on [what you actually know]: [qualitative assessment]."
+- For competitor strengths/weaknesses: cite the specific source (e.g., "G2 review from [date]: '[quote]'" or "From their website ([URL]): '[their claim]'").
+- For pricing: only state if found on the competitor's actual pricing page. If not public, say "Pricing not publicly available — recommend competitive shopping or asking sales team."
+- NEVER say "according to industry estimates" or "reports suggest" without naming the specific report, publisher, and date.
+- It is better to say "I don't know" with a recommendation for how to find out, than to fabricate a data point.
+
 ## How to Execute
 
 1. Use web_search to find competitors in the product category (search "[category] competitors", "[category] G2", "[product] alternatives")
